@@ -35,7 +35,7 @@ $fblink			            = "";
                     $actflag = "1";
                     $info_path = $path;
 
-                    $output = array("prodResult" => $info_path);
+                    $output = array("prodResult" => $info_path, "GET" => $_GET["path"]);
                     echo json_encode($output);
                     die();
 
