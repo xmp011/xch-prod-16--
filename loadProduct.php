@@ -35,6 +35,10 @@ $fblink			            = "";
                     $info_path = $path.".xml";
                     if( file_exists($info_path) )
                     {
+
+                    $output = array("prodResult" => "111111110");
+                    echo json_encode($output);
+die();
                         $xml = simplexml_load_file($info_path);
                         $do_this_item = 1;
                         foreach($xml->children() as $child)
