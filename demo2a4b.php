@@ -885,11 +885,11 @@ function bigpage(prod,prodCODE)
 	createBigPicTag();
 
 	hlthumb( document.getElementById(prod) );
-
+/**
 	$.ajax({
 		type: 'HEAD',
 		url: prod + ".xml",
-		dataType: "text", /* Thanks Sank for the Firefox Fix */
+		dataType: "text", /* Thanks Sank for the Firefox Fix *//**
 		success: function(){
 		newImage = ''+prod+"_big_photo.png"+'';
 		$('#bigpic').attr("src",newImage);
@@ -898,7 +898,7 @@ function bigpage(prod,prodCODE)
 		newImage = 'http://xchangemarket.com/BLANK_OVERLAY.png';
 		$('#bigpic').attr("src",newImage);
 		}
-	});
+	});**/
 
 	loadProductXML(prod+".xml",prodCODE);
 }
