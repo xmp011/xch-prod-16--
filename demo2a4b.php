@@ -10,8 +10,8 @@
 <!-- <meta name="viewport" content="width=550" /> -->
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" media="screen" href="css/screen-Inner.css">
-<link rel="stylesheet" type="text/css" media="screen" href="css/screen-Outer.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/xch-prod-16--/css/screen-Inner.css">
+<link rel="stylesheet" type="text/css" media="screen" href="/xch-prod-16--/css/screen-Outer.css">
 
 <!-- Search related -->
 <!--<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js">-->
@@ -19,9 +19,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.5/jquery.mobile.min.js"></script> -->
 <!-- <script src="../lib/jquery-1.5.1.min.js" type="text/javascript" charset="utf-8"></script> -->
-<script src="root/jquery.kineticV2.0.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="/xch-prod-16--/root/jquery.kineticV2.0.1.js" type="text/javascript" charset="utf-8"></script>
 
-<script src="js/jquery.xdomainajax.js"></script>
+<script src="/xch-prod-16--/js/jquery.xdomainajax.js"></script>
 
 <!-- CORE INTEGRATION 1 -->
 <script>
@@ -168,11 +168,11 @@ function loadProductXML(pth,pcode)
 
 /* AJAX Start */
 $.ajax({
-type: "GET",
-url: pth,
-cache: false,
-dataType: "xml",
-success: function(xml){
+type        :           "GET",
+url         :           pth,
+cache       :           false,
+dataType    :           "xml",
+success     :           function(xml){
 $(xml).find('Item').each(function(){
 
 var sACTIVE 			= $(this).find('active').text();
@@ -253,7 +253,7 @@ echo " }";
 });
 },
 
-error: function() {
+error       :           function() {
 /* alert("An error occurred while processing XML file."); */
 
 <?php
@@ -361,13 +361,13 @@ if( $('#inner2').width() < $('#inner2').parent().width() )
 {
 	$('#inner2').width($('#inner2').parent().width());
 
-	$('#leftvendarrow').attr('src',		'images/BlackOutArrow.png');			/* Changed */
-	$('#rightvendarrow').attr('src',	'images/BlackOutArrow.png');			/* Changed */
+	$('#leftvendarrow').attr('src',		'/xch-prod-16--/images/BlackOutArrow.png');			/* Changed */
+	$('#rightvendarrow').attr('src',	'/xch-prod-16--/images/BlackOutArrow.png');			/* Changed */
 }
 /** ARROWS ON THE BRAND SLIDER **/
 else {
-	$('#leftvendarrow').attr('src',		'images/leftBLUvend_white.png');		/* Changed */
-	$('#rightvendarrow').attr('src',	'images/rightBLUvend_white.png');		/* Changed */
+	$('#leftvendarrow').attr('src',		'/xch-prod-16--/images/leftBLUvend_white.png');		/* Changed */
+	$('#rightvendarrow').attr('src',	'/xch-prod-16--/images/rightBLUvend_white.png');		/* Changed */
 }
 
 }
@@ -389,11 +389,11 @@ if( $('#inner').width() < $('#inner').parent().width() )
 {
 	$('#inner').width($('#inner').parent().width());
 
-	$('#leftthumbarrow').attr('src',	'images/BlackOutArrow.png');
-	$('#rightthumbarrow').attr('src',	'images/BlackOutArrow.png');
+	$('#leftthumbarrow').attr('src',	'/xch-prod-16--/images/BlackOutArrow.png');
+	$('#rightthumbarrow').attr('src',	'/xch-prod-16--/images/BlackOutArrow.png');
 } else {
-	$('#leftthumbarrow').attr('src',	'images/leftBLUvend_white.png');
-	$('#rightthumbarrow').attr('src',	'images/rightBLUvend_white.png');
+	$('#leftthumbarrow').attr('src',	'/xch-prod-16--/images/leftBLUvend_white.png');
+	$('#rightthumbarrow').attr('src',	'/xch-prod-16--/images/rightBLUvend_white.png');
 }
 
 }
@@ -844,7 +844,7 @@ function showVideo()
 {
 	createVideoTag();
 	if(lastYID=="" && lastYPLID=="")
-	$('#ytplayer').html("<img src='images/NO_VIDEO.png'/>");
+	$('#ytplayer').html("<img src='/xch-prod-16--/images/NO_VIDEO.png'/>");
 	else
 	XMPloadplayer(lastYID,lastYPLID);
 }
@@ -859,7 +859,7 @@ function createBigPicTag()
 	if(vidtagloaded==1)
 	$('#imgBox').html("<img src='' name='bigpic' width='460' height='416' id='bigpic' alt='Image is loading...' onclick='showVideo()' style='border:0px; position:absolute; top:0; left:0;'/>");
 	if(lastYID!=""/* && lastYPLID!=""*/)
-	$('#imgBox').append("<img src='images/play.png' name='playvideo' width='35' height='26' id='playvideo' alt='' onclick='showVideo()' style='border:0px; position:absolute; top:195px; left:212.5px;'/>");		/* Changed */
+	$('#imgBox').append("<img src='/xch-prod-16--/images/play.png' name='playvideo' width='35' height='26' id='playvideo' alt='' onclick='showVideo()' style='border:0px; position:absolute; top:195px; left:212.5px;'/>");		/* Changed */
 
 	vidtagloaded = 0;
 }
@@ -921,7 +921,7 @@ function bigpage(prod,prodCODE)
 </script>
 
 <link rel="stylesheet" href="http://xchangemarket.com/fonts/stylesheet.css" type="text/css" charset="utf-8" />
-<link href="generic_style_2016.css" rel="stylesheet" type="text/css">
+<link href="/xch-prod-16--/generic_style_2016.css" rel="stylesheet" type="text/css">
 <script src="http://xchangemarket.com/scrollIntoView.min.js" type="text/javascript" charset="utf-8"></script> <!-- Check this. What's this about? -->
 
 <script>
@@ -1110,7 +1110,7 @@ animateMe($('#inner200'), remainingTime, 'hover');
 <!--<center ng-app="instantsearch">-->
 <center>
 
-<a id="xch-wrapper" href="https://twitter.com/xchangemarket" target="_blank"><div id="feed-header" style="/*background-color: white; */z-index: 99999; height: 38px; width: 38px; /*position: absolute; left: 0;*/float: left;border-radius: 50px;"><img src="images/feed-icons/twitter-icon-circle-1.png" alt="XCHANGE MARKET Feed" height="38" width="38"></div></a>
+<a id="xch-wrapper" href="https://twitter.com/xchangemarket" target="_blank"><div id="feed-header" style="/*background-color: white; */z-index: 99999; height: 38px; width: 38px; /*position: absolute; left: 0;*/float: left;border-radius: 50px;"><img src="/xch-prod-16--/images/feed-icons/twitter-icon-circle-1.png" alt="XCHANGE MARKET Feed" height="38" width="38"></div></a>
 <div id="wn200" style="background-color:#95BFA4;/*width:100%;*/width:966px;">
 <div id="inner200" style="position: absolute;  width: 2650px;/* left: -2650px; */float: left; top: 0px; z-index: 10;">
 </div>
@@ -1144,10 +1144,10 @@ animateMe($('#inner200'), remainingTime, 'hover');
 </select>
 
 <select id="s-options">
-<option value="all" 		style="background-image:url(images/dd-icons/all-icon.png);">		All		</option>
-<option value="name" 		style="background-image:url(images/dd-icons/name-icon.png);">		Name	</option>
-<option value="category" 	style="background-image:url(images/dd-icons/cat-icon.png);">		Category</option>
-<option value="key_words" 	style="background-image:url(images/dd-icons/keywords-icon.png);">	Keywords</option>
+<option value="all" 		style="background-image:url(/xch-prod-16--/images/dd-icons/all-icon.png);">		    All		</option>
+<option value="name" 		style="background-image:url(/xch-prod-16--/images/dd-icons/name-icon.png);">		Name	</option>
+<option value="category" 	style="background-image:url(/xch-prod-16--/images/dd-icons/cat-icon.png);">		    Category</option>
+<option value="key_words" 	style="background-image:url(/xch-prod-16--/images/dd-icons/keywords-icon.png);">	Keywords</option>
 </select>
 
 <ul></ul>
@@ -1208,7 +1208,7 @@ animateMe($('#inner200'), remainingTime, 'hover');
 <div class="product_text" id="content_font" style="color:#333;"></div>
 <div class="product_icons">
 <a href='' id='infolink' target='_blank' style='text-decoration:none'>
-<img style='visibility:visible;' src='images/INFOicon.png' title='More Information' />
+<img style='visibility:visible;' src='/xch-prod-16--/images/INFOicon.png' title='More Information' />
 </a>
 <?php 
 /*
@@ -1218,7 +1218,7 @@ animateMe($('#inner200'), remainingTime, 'hover');
 */
 ?>
 <a href='' id='fblink' target='_blank' style='text-decoration:none'>
-<img style='visibility:visible;' src='images/FBicon.png' title='Facebook' />
+<img style='visibility:visible;' src='/xch-prod-16--/images/FBicon.png' title='Facebook' />
 </a>
 <div style='font-size:11px;color:lightblue;' id='infolinkTEMP'>&nbsp;</div>
 &nbsp;&nbsp;&nbsp;&nbsp;

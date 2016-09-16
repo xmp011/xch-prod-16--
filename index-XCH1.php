@@ -1,3 +1,5 @@
+<?php die(); ?>
+
 <? ob_start("ob_gzhandler"); ?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" style="overflow: hidden; background-color: #FFF; zoom: 0.95;">

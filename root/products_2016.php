@@ -33,7 +33,7 @@
 
 <div class="page_wrap" style="margin-bottom: 0px;   overflow: hidden; background-color: #FFF; zoom: 0.95;">
 <div style="float: left; height: auto; width: 100%; background-color: #FFF;">
-<?php include 'xch-prod-16--/demo2a4b.php'; /* include 'demo2a4b0a.php'; */ ?>
+<?php include '/xch-prod-16--/demo2a4b.php'; /* include 'demo2a4b0a.php'; */ ?>
 </div>
 </div>
 
