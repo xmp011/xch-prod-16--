@@ -109,10 +109,11 @@ alphaClick = 0;
 </script>
 
 <script type="text/javascript">
-
+/**
 String.prototype.beginsWith = function (string) {
 return(this.indexOf(string) === 0);
 };
+**/
 
 function noop()
 {
