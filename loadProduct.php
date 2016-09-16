@@ -34,7 +34,7 @@ $ytplaylistID	            = "";
 $fblink			            = "";
 
                     $actflag = "1";
-                    $info_path = $path;
+                    $info_path = $path.".xml";
                     if( file_exists($info_path) )
                     {echo "File exists!";
                         $xml = simplexml_load_file($info_path);
