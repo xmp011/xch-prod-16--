@@ -181,10 +181,10 @@ success     :           function(data){
 if (JSON.parse(data).prodResult != null && JSON.parse(data).prodResult != undefined/* && vendContent2.length > 0*/) {
 
 var json1 = JSON.parse(data).prodResult;
-
+console.log(json1)
 /* for(var i in json1){ */
 
-var sACTIVE 			= json1.active[0];console.log(sACTIVE);
+var sACTIVE 			= json1.active[0];
 var sDESCRIPTION 		= json1.description;
 var sPNAME 				= json1.productName;
 var sSUBHEAD 			= json1.subHeading;
