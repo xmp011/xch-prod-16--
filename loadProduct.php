@@ -12,6 +12,8 @@ function utf8_urldecode($str) {
 $path      = "";
 $path      = urldecode(base64_decode($_GET["path"]));
 
+echo "Path: " . $path;
+
 $result     = array();
 
 if(isset($path))
@@ -38,7 +40,7 @@ $fblink			            = "";
                         $xml = simplexml_load_file($info_path);
                         $do_this_item = 1;
                         foreach($xml->children() as $child)
-                        {
+                        {echo $child;
                             if($child->getName()=="active")
                             {
                                 $actflag = $child;
