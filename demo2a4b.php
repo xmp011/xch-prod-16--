@@ -172,14 +172,14 @@ function loadProductXML(pth,pcode)
 var dataString = "path=" + btoa(encodeURIComponent(pth));
 
 $.ajax({
-type        :           "GET",
+/* type        :           "GET", */
 url         :           "http://xchangemarket.com/xch-prod-16--/loadProduct.php",
+/* dataType    :           'jsonp', */
 data        :           dataString,
-dataType    :           'jsonp',
 cache       :           false,
 /* dataType    :           "xml", */
 success     :           function(data){
-console.log(data)
+
 if (JSON.parse(data).prodResult != null && JSON.parse(data).prodResult != undefined/* && vendContent2.length > 0*/) {
 
 var json1 = JSON.parse(data).prodResult;
