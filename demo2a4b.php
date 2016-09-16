@@ -112,8 +112,8 @@ alphaClick = 0;
 /**
 String.prototype.beginsWith = function (string) {
 return(this.indexOf(string) === 0);
-};
-**/
+};**/
+
 function noop()
 {
 }
@@ -177,7 +177,7 @@ data        :           dataString,
 cache       :           false,
 /* dataType    :           "xml", */
 success     :           function(data){
-
+console.log(data)
 if (JSON.parse(data).prodResult != null && JSON.parse(data).prodResult != undefined/* && vendContent2.length > 0*/) {
 
 var json1 = JSON.parse(data).prodResult;
