@@ -177,19 +177,19 @@ data        :           dataString,
 cache       :           false,
 /* dataType    :           "xml", */
 success     :           function(data){
-console.log(data); console.log(dataString)
+
 if (JSON.parse(data).prodResult != null && JSON.parse(data).prodResult != undefined/* && vendContent2.length > 0*/) {
 
 var json1 = JSON.parse(data).prodResult;
-console.log(json1);
-for(var i in json1){
 
-var sACTIVE 			= json1[i].active;
-var sDESCRIPTION 		= json1[i].description;
-var sPNAME 				= json1[i].productName;
-var sSUBHEAD 			= json1[i].subHeading;
-var sLONGDESCRIPTION 	= json1[i].longDescription;
-var sCATEGORY 			= json1[i].category;
+/* for(var i in json1){ */
+
+var sACTIVE 			= json1.active[0];console.log(sACTIVE);
+var sDESCRIPTION 		= json1.description;
+var sPNAME 				= json1.productName;
+var sSUBHEAD 			= json1.subHeading;
+var sLONGDESCRIPTION 	= json1.longDescription;
+var sCATEGORY 			= json1.category;
 
 
 sDESCRIPTION 			= unescape(sDESCRIPTION);
@@ -203,11 +203,11 @@ var ytID			= "";
 var ytplaylistID	= "";
 var fblink			= "";
 
-infolink		= json1[i].infolink;
-ytlink			= json1[i].ytlink;
-ytID			= json1[i].ytID;
-ytplaylistID	= json1[i].ytplaylistID;
-fblink			= json1[i].fblink;
+infolink		= json1.infolink;
+ytlink			= json1.ytlink;
+ytID			= json1.ytID;
+ytplaylistID	= json1.ytplaylistID;
+fblink			= json1.fblink;
 
 infolink 		= unescape(infolink);
 ytlink			= unescape(ytlink);
@@ -259,7 +259,7 @@ echo " }";
 
 ?>
 
-}
+/* } */
 
 }
 
