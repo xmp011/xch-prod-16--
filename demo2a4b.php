@@ -109,10 +109,10 @@ alphaClick = 0;
 </script>
 
 <script type="text/javascript">
-/**
+
 String.prototype.beginsWith = function (string) {
 return(this.indexOf(string) === 0);
-};**/
+};
 
 function noop()
 {
@@ -181,7 +181,7 @@ success     :           function(data){
 if (JSON.parse(data).prodResult != null && JSON.parse(data).prodResult != undefined/* && vendContent2.length > 0*/) {
 
 var json1 = JSON.parse(data).prodResult;
-console.log(json1)
+
 /* for(var i in json1){ */
 
 var sACTIVE 			= json1.active[0];
@@ -203,10 +203,10 @@ var ytID			= "";
 var ytplaylistID	= "";
 var fblink			= "";
 
-infolink		= json1.infolink;
+infolink		= json1.infolink[0];
 ytlink			= json1.ytlink;
 ytID			= json1.ytID;
-ytplaylistID	= json1.ytplaylistID;
+ytplaylistID	= json1.ytplaylistID[0];
 fblink			= json1.fblink;
 
 infolink 		= unescape(infolink);
