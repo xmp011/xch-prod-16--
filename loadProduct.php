@@ -32,11 +32,7 @@ $ytplaylistID	            = "";
 $fblink			            = "";
 
                     $actflag = "1";
-                    $info_path = $path.".xml";
-                    
-                                        $output = array("prodResult" => $info_path);
-                    echo json_encode($output);
-die();
+                    $info_path = $path;
                     if( file_exists($info_path) )
                     {
                         $xml = simplexml_load_file($info_path);
