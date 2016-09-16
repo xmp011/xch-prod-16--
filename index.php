@@ -1,4 +1,4 @@
-<?php die(); ?>
+<?php /* die(); */ ?>
 
 <? ob_start("ob_gzhandler"); ?>
 <!DOCTYPE html>

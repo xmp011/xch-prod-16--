@@ -167,20 +167,29 @@ function loadProductXML(pth,pcode)
 
 
 /* AJAX Start */
+
+var dataString = "path=" + pth;
+
 $.ajax({
 type        :           "GET",
-url         :           pth,
+url         :           "http://xchangemarket.com/loadProduct.php",
+data        :           dataString,
 cache       :           false,
-dataType    :           "xml",
-success     :           function(xml){
-$(xml).find('Item').each(function(){
+/* dataType    :           "xml", */
+success     :           function(data){
 
-var sACTIVE 			= $(this).find('active').text();
-var sDESCRIPTION 		= $(this).find('description').text();
-var sPNAME 				= $(this).find('productName').text();
-var sSUBHEAD 			= $(this).find('subHeading').text();
-var sLONGDESCRIPTION 	= $(this).find('longDescription').text();
-var sCATEGORY 			= $(this).find('category').text();
+if (JSON.parse(data).prodResult != null && JSON.parse(data).prodResult != undefined/* && vendContent2.length > 0*/) {
+
+var json1 = JSON.parse(data).prodResult;
+
+for(var i in json1){
+
+var sACTIVE 			= json1[i].active;
+var sDESCRIPTION 		= json1[i].description;
+var sPNAME 				= json1[i].productName;
+var sSUBHEAD 			= json1[i].subHeading;
+var sLONGDESCRIPTION 	= json1[i].longDescription;
+var sCATEGORY 			= json1[i].category;
 
 
 sDESCRIPTION 			= unescape(sDESCRIPTION);
@@ -194,11 +203,11 @@ var ytID			= "";
 var ytplaylistID	= "";
 var fblink			= "";
 
-infolink		= $(this).find('infolink').text();
-ytlink			= $(this).find('ytlink').text();
-ytID			= $(this).find('ytID').text();
-ytplaylistID	= $(this).find('ytplaylistID').text();
-fblink			= $(this).find('fblink').text();
+infolink		= json1[i].infolink;
+ytlink			= json1[i].ytlink;
+ytID			= json1[i].ytID;
+ytplaylistID	= json1[i].ytplaylistID;
+fblink			= json1[i].fblink;
 
 infolink 		= unescape(infolink);
 ytlink			= unescape(ytlink);
@@ -250,7 +259,10 @@ echo " }";
 
 ?>
 
-});
+}
+
+}
+
 },
 
 error       :           function() {
