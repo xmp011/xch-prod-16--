@@ -168,7 +168,7 @@ function loadProductXML(pth,pcode)
 
 /* AJAX Start */
 
-var dataString = "path=" + pth;
+var dataString = "path=" + btoa(encodeURIComponent(pth));
 
 $.ajax({
 type        :           "GET",

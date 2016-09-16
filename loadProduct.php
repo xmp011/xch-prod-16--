@@ -10,7 +10,7 @@ function utf8_urldecode($str) {
 }
 
 $path      = "";
-$path      = $_GET["path"];
+$path      = urldecode(base64_decode($_GET["path"]));
 
 $result     = array();
 
