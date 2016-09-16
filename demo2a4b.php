@@ -175,6 +175,7 @@ $.ajax({
 type        :           "GET",
 url         :           "http://xchangemarket.com/xch-prod-16--/loadProduct.php",
 data        :           dataString,
+dataType    :           'jsonp',
 cache       :           false,
 /* dataType    :           "xml", */
 success     :           function(data){
