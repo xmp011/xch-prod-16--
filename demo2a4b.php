@@ -182,9 +182,10 @@ success     :           function(data){
 
 console.log(data);
 
-if (JSON.parse(data).prodResult != null && JSON.parse(data).prodResult != undefined/* && vendContent2.length > 0*/) {
+/* if (JSON.parse(data).prodResult != null && JSON.parse(data).prodResult != undefined/* && vendContent2.length > 0*/) { */
+if (data.prodResult != null && data.prodResult != undefined/* && vendContent2.length > 0*/) {
 
-var json1 = JSON.parse(data).prodResult;
+var json1 = data.prodResult;
 
 /* for(var i in json1){ */
 
