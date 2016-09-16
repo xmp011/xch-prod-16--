@@ -1,0 +1,498 @@
+/* CSS Document for Screens */
+
+
+/*** 1 ***/
+
+#left_letterBar{
+top: 100px;
+/* border-bottom: 2px solid lightblue; */
+
+overflow-y: hidden;
+}
+
+/* Changed */
+#left_letterBar span{
+width: 20px;
+color: #666;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Changed */
+#left_letterBar span:hover{
+cursor: pointer;
+color: #09F;
+}
+
+/* Changed */
+.alphasense{
+font-weight: bold;
+color: #09F !important;
+}
+.voidsense{
+color: #555;
+}
+
+#left_letterBar::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+/* background-color: #F5F5F5; */
+background-color: black;
+}
+
+#left_letterBar::-webkit-scrollbar
+{
+/* width: 6px; */
+width: 2px;
+/* background-color: #F5F5F5; */
+background-color: black;
+}
+
+#left_letterBar::-webkit-scrollbar-thumb
+{
+/* background-color: #000000; */
+background-color: lightblue;
+}
+
+/* Changed */
+#inner2 div {
+background: #545759;
+background-image: -webkit-linear-gradient(top, #545759, #010203); /* For Safari 5.1 to 6.0 */
+background-image: -moz-linear-gradient(top, #545759, #010203); /* For Firefox 3.6 to 15 */
+background-image: -ms-linear-gradient(top, #545759, #010203);
+background-image: -o-linear-gradient(top, #545759, #010203); /* For Opera 11.1 to 12.0 */
+background-image: linear-gradient(to bottom, #545759, #010203); /* Standard syntax */
+-webkit-border-radius: 8;
+-moz-border-radius: 8;
+border-radius: 8px;
+text-shadow: 1px 1px 6px #666666;
+-webkit-box-shadow: 0px 1px 3px #757575;
+-moz-box-shadow: 0px 1px 3px #757575;
+box-shadow: 0px 1px 3px #757575;
+padding: 10px 20px 10px 20px;
+border: solid #303030 2px;
+text-decoration: none;
+}
+
+/* Changed */
+#inner2 div:hover {
+background: #5dbffc;
+background-image: -webkit-linear-gradient(top, #5dbffc, #007bff); /* For Safari 5.1 to 6.0 */
+background-image: -moz-linear-gradient(top, #5dbffc, #007bff); /* For Firefox 3.6 to 15 */
+background-image: -ms-linear-gradient(top, #5dbffc, #007bff);
+background-image: -o-linear-gradient(top, #5dbffc, #007bff); /* For Opera 11.1 to 12.0 */
+background-image: linear-gradient(to bottom, #5dbffc, #007bff); /* Standard syntax */
+text-decoration: none;
+}
+
+/* Changed */
+#inner2 div:active {
+background: #5dbffc;
+background-image: -webkit-linear-gradient(top, #5dbffc, #007bff); /* For Safari 5.1 to 6.0 */
+background-image: -moz-linear-gradient(top, #5dbffc, #007bff); /* For Firefox 3.6 to 15 */
+background-image: -ms-linear-gradient(top, #5dbffc, #007bff);
+background-image: -o-linear-gradient(top, #5dbffc, #007bff); /* For Opera 11.1 to 12.0 */
+background-image: linear-gradient(to bottom, #5dbffc, #007bff); /* Standard syntax */
+text-decoration: none;
+}
+
+
+
+/*** 2 ***/
+
+body {
+font-family: arial, sans-serif;
+}
+pre code {
+background: #ddd;
+display: block;
+padding: 10px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+-o-border-radius: 5px;
+border-radius: 5px;
+}
+#container {
+margin: 0 auto;
+width: 800px;
+}
+#wrapper {
+border: solid 5px #000;
+height: 400px;
+width: 100%;
+overflow: hidden;
+}
+#wrapper2 {
+height: 210px;
+width: 6000px;
+overflow: hidden;
+border-top: 1px solid #c0c0c0;
+border-bottom: 1px solid #c0c0c0;
+background: #8e9eab; /* fallback for old browsers */
+background: -webkit-linear-gradient( #ECE9E6 , #FFFFFF , #ECE9E6); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient( #ECE9E6 , #FFFFFF , #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+#controls {
+padding: 10px;
+}
+#controls span {
+cursor: pointer;
+}
+
+.kinetic-moving-up {
+border-top-color: black !important;
+}
+.kinetic-moving-down {
+border-bottom-color: black !important;
+}
+.kinetic-moving-left {
+border-left-color: black !important;
+}
+.kinetic-moving-right {
+border-right-color: black !important;
+}
+
+.kinetic-decelerating-up {
+border-top-color: black !important;
+}
+.kinetic-decelerating-down {
+border-bottom-color: black !important;
+}
+.kinetic-decelerating-left {
+border-left-color: black !important;
+}
+.kinetic-decelerating-right {
+border-right-color: black !important;
+}
+
+/* #inner img { display: block;  width: 2000px; } */
+#inner { width: 2000px; height: 100px; }
+
+/* #inner img { display: block; width: 2000px; } */
+#inner2 { width: 2000px; height: 100px; }
+
+#left, #right { cursor: pointer; }
+
+.thumbBAK {
+z-index:            -1;
+float:              left;
+height:             92%; /* gca 2015 was 70% */
+cursor:             pointer;
+
+border-left:        5px solid #000;
+border-right:       5px solid #000;
+/*-moz-border-radius:               6px;*/
+/*border-radius:                    6px;*/
+padding:            4px;
+background-color:   #000;
+
+/*-moz-outline-radius:              2px;*/
+/*outline-radius:                   2px;*/
+/*outline:                          5px solid green;*/
+/*outline-offset:                   5;*/
+
+/*-moz-box-shadow:                  20px 20px 20px green;*/
+/*-webkit-box-shadow:               20px 20px 20px green;*/
+/*box-shadow:                       20px 20px 20px green;*/
+}
+
+
+
+/*** 3 ***/
+
+div#wn200	{
+position:relative;
+width:304px; height:38px;
+overflow:hidden;
+}
+
+div#inner200 > span{
+padding-left: 5px;
+padding-right: 5px;
+border: none !important;
+position: relative;
+color: black;
+display: none;
+}
+div#inner200 > span:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+
+#feed-header:hover{
+background: black;
+}
+
+#wn200{
+/* Safari 4-5, Chrome 1-9 */
+/* Can't specify a percentage size? Laaaaaame. */
+background: -webkit-gradient(radial, center center, 0, center center, 460, from(#CDD6DA), to(#FFFFFF));
+/* Safari 5.1+, Chrome 10+ */
+background: -webkit-radial-gradient(circle, #CDD6DA, white);
+/* Firefox 3.6+ */
+background: -moz-radial-gradient(circle, #CDD6DA, white);
+/* IE 10 */
+background: -ms-radial-gradient(circle, #CDD6DA, white);
+}
+
+
+
+/*** 4 ***/
+
+/** Search feature _SANK - Start **/
+
+.box{
+width: 300px;
+height: 30px;
+width: 100%;
+margin-bottom: 7px;
+margin-top: 7px;
+}
+
+/* Search 3 - zoom in looking glass */
+.container-3{
+width: 100%;
+vertical-align: middle;
+white-space: nowrap;
+position: relative;
+
+z-index: 99;
+}
+
+/* SEARCH BAR */
+.container-3 input#search{
+width: 80%;
+height: 30px;
+background: #2b303b;
+border: none;
+font-size: 10pt;
+float: left;
+color: #262626;
+padding-left: 45px;
+color: #fff;
+}
+
+.container-3 input#search::-webkit-input-placeholder {
+color: #6b7986;
+}
+.container-3 input#search:-moz-placeholder { /* Firefox 18- */
+color: #6b7986;
+}
+.container-3 input#search::-moz-placeholder {  /* Firefox 19+ */
+color: #6b7986;
+}
+.container-3 input#search:-ms-input-placeholder {
+color: #6b7986;
+}
+
+.container-3 .icon{
+position: absolute;
+margin-left: 17px;
+z-index: 1;
+color: #4f5b66;
+
+right: 0;
+width: 5%;
+height: 30px;
+
+-webkit-transition: all .55s ease;
+-moz-transition: all .55s ease;
+-ms-transition: all .55s ease;
+-o-transition: all .55s ease;
+transition: all .55s ease;
+
+}
+
+/* ANIMATION EFFECTS */
+.container-3 input#search:focus, .container-3 input#search:active{
+outline:none;
+}
+
+.container-3 input#search::-webkit-search-cancel-button {
+display: none;
+
+/* Remove default */
+/* -webkit-appearance: none; */
+
+/* Now your own custom styles */
+/**
+height: 10px;
+width: 10px;
+background: red;
+**/
+/* Will place small red box on the right of input (positioning carries over) */
+}
+
+.suggest-holder {}
+.suggest-holder input {
+border: 1px solid #949FD3 !important;
+}
+.suggest-holder ul {
+display: none;
+list-style: none;
+margin: 0;
+padding: 0;
+border: 1px solid rgba(0,120,0,.6);
+margin-top: -6px;
+
+padding-top: 35px;
+background-color: white;
+}
+.suggest-holder li {
+padding: 5px;
+}
+.suggest-holder li:hover {
+cursor: pointer;
+}
+.suggest-holder li:hover, li.active {
+background: rgba(0,120,0, .2);
+}
+.suggest-name {
+font-weight: bold;
+display: block;
+height: 13px;
+
+color: #136CB2;
+}
+.suggest-description {
+font-size: 11px;
+color: #999;
+}
+
+.suggest-all {
+color: #136CB2;
+border-top: 3px solid grey;
+width: 100%;
+display: block;
+}
+
+#s-options{
+width: 15%;
+height: 30px;
+border: 3px solid lightsalmon;
+background: lavender;
+}
+
+#s-categories{
+display: none;
+width: 15%;
+height: 30px;
+float: left;
+border: 3px solid lightskyblue;
+background: lavender;
+}
+
+.container-3 span.reset-search{
+display: none;
+width: 5%;
+height: 30px;
+float: left;
+
+background: #adbdc7;
+background-image: -webkit-linear-gradient(top, #adbdc7, #485d6b);
+background-image: -moz-linear-gradient(top, #adbdc7, #485d6b);
+background-image: -ms-linear-gradient(top, #adbdc7, #485d6b);
+background-image: -o-linear-gradient(top, #adbdc7, #485d6b);
+background-image: linear-gradient(to bottom, #adbdc7, #485d6b);
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0px;
+font-family: Arial;
+color: #ffffff;
+text-decoration: none;
+text-align: center;
+
+}
+
+.container-3 span.reset-search:hover{
+cursor: pointer;
+background: #3f5f73;
+text-decoration: none;
+}
+
+
+
+/*** 5 ***/
+
+/*
+.photobox_left, .photobox_right{
+overflow: scroll;
+}
+*/
+
+.photobox_left, .photobox_right{
+    width: 50% !important;
+}
+
+.photobox_left::-webkit-scrollbar-track, .photobox_right::-webkit-scrollbar-track
+{
+-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+/* background-color: #F5F5F5; */
+background-color: black;
+}
+
+.photobox_left::-webkit-scrollbar, .photobox_right::-webkit-scrollbar
+{
+/* width: 6px; */
+width: 2px;
+/* background-color: #F5F5F5; */
+background-color: black;
+}
+
+.photobox_left::-webkit-scrollbar-thumb, .photobox_right::-webkit-scrollbar-thumb
+{
+background-color: red;
+/* background-color: lightblue; */
+}
+.photobox_left::-webkit-scrollbar-corner, .photobox_right::-webkit-scrollbar-corner
+{
+/* Select the top half (or left half) or scrollbar track individually */
+background-color: #000000;
+}
+
+
+
+/*** 6 ***/
+
+#loader{ display: none; background: url("../images/giphy.gif") no-repeat center; background-color: white; /* height: 490px; */ height: 520px; }
+
+
+
+/*** 7 ***/
+
+#resultout{ display: none; background-color: white; /* height: 490px; */height: 520px; }
+#resultout h1.no-results {
+color: #0071bc;
+font-size: 24px;
+padding: 50px 16px 0 0; /* whatever the dimensions the image needs */
+}
+
+
+
+/*** 8 ***/
+
+/** Search related **/
+
+.content{
+width: 900px;
+margin: 0 auto;
+}
+#result
+{
+position: absolute;
+width: 500px;
+padding: 10px;
+display: none;
+margin-top: -1px;
+border-top: 0px;
+overflow: hidden;
+border: 1px #CCC solid;
+background-color: white;
+}
+
+
+
+/*** 9 ***/
+
+
+

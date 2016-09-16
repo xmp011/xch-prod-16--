@@ -1,0 +1,411 @@
+/* CSS Document for Screens */
+
+
+.menu_wrap { max-width: none !important; }
+
+div#container { width: 99% !important; }
+div#wrapper { width: 93.9% !important; }
+
+div#container2 { width: 99% !important; }
+div#wrapper2 { width: 93.9% !important; }
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1025px) {}
+
+@media screen and (max-width: 1000px) {
+
+    /* .thumb { z-index: 99999 !important; } */
+
+
+    body { position: relative; }
+
+    .page_wrap { width: 100% !important; }
+
+    /**
+    iframe#content-Wrapper { margin-bottom: 400px; height: 1400px !important; width: 100%; max-width: 1000px; }
+    iframe#content-Wrapper::after { content:''; display: block; clear: both; }
+    **/
+
+    .slogan { font-size: 1.1em !important; }
+
+    /* Navigation */
+    /**
+    .menu_wrap { position: absolute; bottom: 100px; left: 0px; width: auto; background-color: #ffffff; }
+    .menu_wrap::before { content:''; display: block; clear: both; }
+    .menu_wrap::after { content:''; display: block; clear: both; }
+
+    .menu_wrap ul { display: block; position: static; width: 100%; }
+
+    .menu_wrap > ul { padding: 0; }
+    .menu_wrap > ul > li { float: none; margin-top: 25px; display: block !important; }
+
+    .menu_wrap ul li:hover { background: none; }
+
+    .menu_wrap ul li a {
+        width: auto !important;
+        display: block;
+        margin: 8px 10px;
+        padding: 8px 15px;
+        border: 1px solid rgba(255,255,255,.25);
+    }
+
+    .menu_wrap ul li a:hover { background-color: rgba(255,255,255,.2); }
+    **/
+    div#wn200 { width: 95% !important; } /* not noticeable */
+
+    input#search.suggest-prompt { padding-left: 0 !important; }
+    /* i.fa.fa-search { display: none !important; } */
+
+    #left_letterBar span{
+        /* width: 20px; */
+        /* color: #666; */
+        font-size: 0.9em !important;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        text-align: center !important;
+    }
+
+    /* #bigdiv { height: 1040px !important; } */
+    /* #big_pic_box { height: 1040px !important; background-size:95% 1040px !important; } */
+
+    /* div.photobox_left { width: 100% !important; text-align: left !important; float: none !important; } */
+    #discript_font { font-size: 1.7em !important; width: 95% !important; margin-top: 3% !important; margin-left: 4.9% !important; }
+    #imgBox { width: 95% !important; height: 86% !important; margin-top: 2.6% !important; margin-left: 4.9% !important; } /* margin-top - looks ok for now, come back */
+    #bigpic { width: 100% !important; height: 100% !important; }
+    #playvideo { top: 46.9% !important; left: 46.2% !important; }
+
+    /* div.photobox_right { width: 100% !important; text-align: left !important; float: none !important; } */
+    div#big_headline_font.product_headline_big { font-size: 1.9em !important; width: 97.83% !important; margin-left: 2.17% !important; margin-top: 50px !important; }
+    div#sub_headline_font.product_headline_small { font-size: 1.1em !important; width: 97.83% !important; margin-left: 2.17% !important; margin-top: 6px !important; }
+    div#content_font.product_text { font-size: 0.8em !important; width: 95.83% !important; margin-left: 2.17% !important; margin-top: 7px !important; padding-bottom: 7px !important; padding-right: 2% !important; }
+    div.product_icons { width: 97.83% !important; margin-left: 2.17% !important; margin-top: 7px !important; }
+
+    div#container { width: 99% !important; }
+    /* img#leftthumbarrow { display: none !important; } */
+    div#wrapper { width: 93.0% !important; } /* noticeable upon adjust/change */
+    /* img#rightthumbarrow { display: none !important; } */
+
+    /* Test this extensively */
+    div#container2 { width: 99% !important; }
+    /* img#leftvendarrow { display: none !important; } */
+    div#wrapper2 { width: 93.0% !important; }
+    /* img#rightvendarrow { display: none !important; } */
+
+}
+
+@media screen and (max-width: 825px) {
+
+    body { position: relative; }
+
+    .page_wrap { width: 100% !important; }
+
+    /**
+    iframe#content-Wrapper { margin-bottom: 400px; height: 1400px !important; width: 100%; max-width: 1000px; }
+    iframe#content-Wrapper::after { content:''; display: block; clear: both; }
+    **/
+
+    .slogan { font-size: 1.0em !important; }
+
+    /* Navigation */
+    /**
+    .menu_wrap { position: absolute; bottom: 100px; left: 0px; width: auto; background-color: #ffffff; }
+    .menu_wrap::before { content:''; display: block; clear: both; }
+    .menu_wrap::after { content:''; display: block; clear: both; }
+
+    .menu_wrap ul { display: block; position: static; width: 100%; }
+
+    .menu_wrap > ul { padding: 0; }
+    .menu_wrap > ul > li { float: none; margin-top: 25px; display: block !important; }
+
+    .menu_wrap ul li:hover { background: none; }
+
+    .menu_wrap ul li a {
+        width: auto !important;
+        display: block;
+        margin: 8px 10px;
+        padding: 8px 15px;
+        border: 1px solid rgba(255,255,255,.25);
+    }
+
+    .menu_wrap ul li a:hover { background-color: rgba(255,255,255,.2); }
+    **/
+    div#wn200 { width: 94.8% !important; } /* not noticeable */
+
+    input#search.suggest-prompt { padding-left: 0 !important; }
+    /* i.fa.fa-search { display: none !important; } */
+
+    #left_letterBar span{
+        /* width: 20px; */
+        /* color: #666; */
+        font-size: 0.8em !important;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        text-align: center !important;
+    }
+
+    /* #bigdiv { height: 1040px !important; } */
+    /* #big_pic_box { height: 1040px !important; background-size:95% 1040px !important; } */
+
+    /* div.photobox_left { width: 100% !important; text-align: left !important; float: none !important; } */
+    #discript_font { font-size: 1.6em !important; width: 95% !important; margin-top: 3% !important; margin-left: 4.9% !important; }
+    #imgBox { width: 95% !important; height: 86% !important; margin-top: 2.6% !important; margin-left: 4.9% !important; } /* margin-top - looks ok for now, come back */
+    #bigpic { width: 100% !important; height: 100% !important; }
+    #playvideo { top: 46.9% !important; left: 46.2% !important; }
+
+    /* div.photobox_right { width: 100% !important; text-align: left !important; float: none !important; } */
+    div#big_headline_font.product_headline_big { font-size: 1.8em !important; width: 97.83% !important; margin-left: 2.17% !important; margin-top: 40px !important; }
+    div#sub_headline_font.product_headline_small { font-size: 1.1em !important; width: 97.83% !important; margin-left: 2.17% !important; margin-top: 5px !important; }
+    div#content_font.product_text { font-size: 0.8em !important; width: 95.83% !important; margin-left: 2.17% !important; margin-top: 6px !important; padding-bottom: 6px !important; padding-right: 2% !important; }
+    div.product_icons { width: 97.83% !important; margin-left: 2.17% !important; margin-top: 6px !important; }
+
+    div#container { width: 99% !important; }
+    /* img#leftthumbarrow { display: none !important; } */
+    div#wrapper { width: 92.5% !important; } /* noticeable upon adjust/change */
+    /* img#rightthumbarrow { display: none !important; } */
+
+    /* Test this extensively */
+    div#container2 { width: 99% !important; }
+    /* img#leftvendarrow { display: none !important; } */
+    div#wrapper2 { width: 92.5% !important; }
+    /* img#rightvendarrow { display: none !important; } */
+
+}
+
+
+@media screen and (max-width: 760px) {
+
+    body { position: relative; }
+
+    .page_wrap { width: 100% !important; }
+
+    /**
+    iframe#content-Wrapper { margin-bottom: 400px; height: 1400px !important; width: 100%; max-width: 1000px; }
+    iframe#content-Wrapper::after { content:''; display: block; clear: both; }
+    **/
+
+    .slogan { font-size: 0.9em !important; }
+
+    /* Navigation */
+    /**
+    .menu_wrap { position: absolute; bottom: 100px; left: 0px; width: auto; background-color: #ffffff; }
+    .menu_wrap::before { content:''; display: block; clear: both; }
+    .menu_wrap::after { content:''; display: block; clear: both; }
+
+    .menu_wrap ul { display: block; position: static; width: 100%; }
+
+    .menu_wrap > ul { padding: 0; }
+    .menu_wrap > ul > li { float: none; margin-top: 25px; display: block !important; }
+
+    .menu_wrap ul li:hover { background: none; }
+
+    .menu_wrap ul li a {
+        width: auto !important;
+        display: block;
+        margin: 8px 10px;
+        padding: 8px 15px;
+        border: 1px solid rgba(255,255,255,.25);
+    }
+
+    .menu_wrap ul li a:hover { background-color: rgba(255,255,255,.2); }
+    **/
+    div#wn200 { width: 93.7% !important; } /* not noticeable */
+
+    input#search.suggest-prompt { padding-left: 0 !important; }
+    /* i.fa.fa-search { display: none !important; } */
+
+    #left_letterBar span{
+        /* width: 20px; */
+        /* color: #666; */
+        font-size: 0.7em !important;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        text-align: center !important;
+    }
+
+    /* #bigdiv { height: 1040px !important; } */
+    /* #big_pic_box { height: 1040px !important; background-size:95% 1040px !important; } */
+
+    /* div.photobox_left { width: 100% !important; text-align: left !important; float: none !important; } */
+    #discript_font { font-size: 1.4em !important; width: 95% !important; margin-top: 3% !important; margin-left: 4.9% !important; }
+    #imgBox { width: 95% !important; height: 86% !important; margin-top: 2.6% !important; margin-left: 4.9% !important; } /* margin-top - looks ok for now, come back */
+    #bigpic { width: 100% !important; height: 100% !important; }
+    #playvideo { top: 46.9% !important; left: 46.2% !important; }
+
+    /* div.photobox_right { width: 100% !important; text-align: left !important; float: none !important; } */
+    div#big_headline_font.product_headline_big { font-size: 1.7em !important; width: 97.83% !important; margin-left: 2.17% !important; margin-top: 30px !important; }
+    div#sub_headline_font.product_headline_small { font-size: 1.0em !important; width: 97.83% !important; margin-left: 2.17% !important; margin-top: 4px !important; }
+    div#content_font.product_text { font-size: 0.8em !important; width: 95.83% !important; margin-left: 2.17% !important; margin-top: 5px !important; padding-bottom: 5px !important; padding-right: 2% !important; }
+    div.product_icons { width: 97.83% !important; margin-left: 2.17% !important; margin-top: 5px !important; }
+
+    div#container { width: 99% !important; }
+    /* img#leftthumbarrow { display: none !important; } */
+    div#wrapper { width: 91.3% !important; } /* noticeable upon adjust/change */
+    /* img#rightthumbarrow { display: none !important; } */
+
+    /* Test this extensively */
+    div#container2 { width: 99% !important; }
+    /* img#leftvendarrow { display: none !important; } */
+    div#wrapper2 { width: 91.3% !important; }
+    /* img#rightvendarrow { display: none !important; } */
+
+}
+
+
+@media screen and (max-width: 625px) {
+
+    body { position: relative; }
+
+    .page_wrap { width: 100% !important; margin-bottom: 400px !important; }
+
+    iframe#content-Wrapper { margin-bottom: 400px; height: 1400px !important; }
+    iframe#content-Wrapper::after { content:''; display: block; clear: both; }
+
+    .slogan { font-size: 0.9em !important; }
+
+    /* Navigation */
+    .menu_wrap { position: absolute; bottom: 100px; left: 0px; width: auto; background-color: #ffffff; }
+    .menu_wrap::before { content:''; display: block; clear: both; }
+    .menu_wrap::after { content:''; display: block; clear: both; }
+
+    .menu_wrap ul { display: block; position: static; width: 100%; }
+
+    .menu_wrap > ul { padding: 0; }
+    .menu_wrap > ul > li { float: none; margin-top: 25px; display: block !important; }
+
+    .menu_wrap ul li:hover { background: none; }
+
+    .menu_wrap ul li a {
+        width: auto !important;
+        display: block;
+        margin: 8px 10px;
+        padding: 8px 15px;
+        border: 1px solid rgba(255,255,255,.25);
+    }
+
+    .menu_wrap ul li a:hover { background-color: rgba(255,255,255,.2); }
+
+    div#wn200 { width: 90.7% !important; } /* broken? */
+
+    .reset-search { border-radius: 5px !important; }
+    input#search.suggest-prompt { padding-left: 0 !important; }
+    input#search.suggest-prompt { -webkit-appearance: none !important; } /* Added, come back */
+    button#search-go.icon { /* background-color: grey !important; -webkit-appearance: none !important; border-width: 0px !important; */display: none !important; } /* Replace with Enter */ /* Added, come back */
+    i.fa.fa-search { display: none !important; }
+    #s-options { width: 20% !important; }
+
+    #left_letterBar span{
+        /* width: 20px; */
+        /* color: #666; */
+        font-size: 0.6em !important;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        text-align: center !important;
+    }
+
+    #bigdiv { height: 1040px !important; }
+    #big_pic_box { height: 1040px !important; background-size:95% 1040px !important; }
+
+    div.photobox_left { width: 100% !important; text-align: left !important; float: none !important; }
+    #discript_font { font-size: 1.2em !important; width: 95% !important; margin-top: 3% !important; margin-left: 4.9% !important; }
+    #imgBox { width: 95% !important; height: 86% !important; margin-top: 2.6% !important; margin-left: 4.9% !important; } /* margin-top - looks ok for now, come back */
+    #bigpic { width: 100% !important; height: 100% !important; }
+    #playvideo { top: 46.9% !important; left: 46.2% !important; }
+
+    div.photobox_right { width: 100% !important; text-align: left !important; float: none !important; }
+    div#big_headline_font.product_headline_big { font-size: 1.6em !important; width: 97.83% !important; margin-left: 2.17% !important; margin-top: 0 !important; }
+    div#sub_headline_font.product_headline_small { font-size: 1.0em !important; width: 97.83% !important; margin-left: 2.17% !important; margin-top: 4px !important; }
+    div#content_font.product_text { font-size: 0.7em !important; width: 95.83% !important; margin-left: 2.17% !important; margin-top: 6px !important; padding-bottom: 6px !important; padding-right: 2% !important; }
+    div.product_icons { width: 97.83% !important; margin-left: 2.17% !important; margin-top: 6px !important; }
+
+    div#container { width: 99% !important; }
+    img#leftthumbarrow { display: none !important; }
+    div#wrapper { width: 88.2% !important; }
+    img#rightthumbarrow { display: none !important; }
+
+    /* Test this extensively */
+    div#container2 { width: 99% !important; }
+    img#leftvendarrow { display: none !important; }
+    div#wrapper2 { width: 100% !important; }
+    img#rightvendarrow { display: none !important; }
+
+}
+
+
+@media screen and (max-width: 425px) {
+
+    body { position: relative; }
+
+    .page_wrap { width: 100% !important; margin-bottom: 400px !important; }
+
+    iframe#content-Wrapper { margin-bottom: 400px; height: 1400px !important; }
+    iframe#content-Wrapper::after { content:''; display: block; clear: both; }
+
+    .slogan { font-size: 0.75em !important; }
+
+    /* Navigation */
+    .menu_wrap { position: absolute; bottom: 100px; left: 0px; width: auto; background-color: #ffffff; }
+    .menu_wrap::before { content:''; display: block; clear: both; }
+    .menu_wrap::after { content:''; display: block; clear: both; }
+
+    .menu_wrap ul { display: block; position: static; width: 100%; }
+
+    .menu_wrap > ul { padding: 0; }
+    .menu_wrap > ul > li { float: none; margin-top: 5px; display: block !important; }
+
+    .menu_wrap ul li:hover { background: none; }
+
+    .menu_wrap ul li a {
+        width: auto !important;
+        display: block;
+        margin: 3px 7px;
+        padding: 5px 12px;
+        border: 1px solid rgba(255,255,255,.25);
+    }
+
+    .menu_wrap ul li a:hover { background-color: rgba(255,255,255,.2); }
+
+    a#xch-wrapper { display: none !important; }
+    div#wn200 { width: 100% !important; font-size: 0.6em !important; } /* broken? */
+
+    .reset-search { border-radius: 5px !important; }
+    input#search.suggest-prompt { padding-left: 0 !important; }
+    input#search.suggest-prompt { -webkit-appearance: none !important; } /* Added, come back */
+    button#search-go.icon { /* background-color: grey !important; -webkit-appearance: none !important; border-width: 0px !important; */display: none !important; } /* Replace with Enter */ /* Added, come back */
+    i.fa.fa-search { display: none !important; }
+    #s-options { width: 20% !important; }
+
+    #left_letterBar span{
+        /* width: 20px; */
+        /* color: #666; */
+        font-size: 0.4em !important;
+        /* font-family: Arial, Helvetica, sans-serif; */
+        text-align: center !important;
+    }
+
+    #bigdiv { height: 1040px !important; }
+    #big_pic_box { height: 1040px !important; background-size:95% 1040px !important; }
+
+    div.photobox_left { width: 100% !important; text-align: left !important; float: none !important; }
+    #discript_font { font-size: 1.2em !important; width: 95% !important; margin-top: 3% !important; margin-left: 4.9% !important; }
+    #imgBox { width: 95% !important; height: 86% !important; margin-top: 2.6% !important; margin-left: 4.9% !important; } /* margin-top - looks ok for now, come back */
+    #bigpic { width: 100% !important; height: 100% !important; }
+    #playvideo { top: 46.9% !important; left: 46.2% !important; }
+
+    div.photobox_right { width: 100% !important; text-align: left !important; float: none !important; }
+    div#big_headline_font.product_headline_big { font-size: 1.6em !important; width: 97.83% !important; margin-left: 2.17% !important; margin-top: 0 !important; }
+    div#sub_headline_font.product_headline_small { font-size: 1.0em !important; width: 97.83% !important; margin-left: 2.17% !important; margin-top: 4px !important; }
+    div#content_font.product_text { font-size: 0.7em !important; width: 95.83% !important; margin-left: 2.17% !important; margin-top: 6px !important; padding-bottom: 6px !important; padding-right: 2% !important; }
+    div.product_icons { width: 97.83% !important; margin-left: 2.17% !important; margin-top: 6px !important; }
+
+    div#container { width: 99% !important; }
+    img#leftthumbarrow { display: none !important; }
+    div#wrapper { width: 88.2% !important; }
+    img#rightthumbarrow { display: none !important; }
+
+    /* Test this extensively */
+    div#container2 { width: 99% !important; }
+    img#leftvendarrow { display: none !important; }
+    div#wrapper2 { width: 100% !important; }
+    img#rightvendarrow { display: none !important; }
+
+}
