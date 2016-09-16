@@ -36,7 +36,7 @@ $fblink			            = "";
                     $actflag = "1";
                     $info_path = $path;
                     if( file_exists($info_path) )
-                    {
+                    {echo "File exists!";
                         $xml = simplexml_load_file($info_path);
                         $do_this_item = 1;
                         foreach($xml->children() as $child)
