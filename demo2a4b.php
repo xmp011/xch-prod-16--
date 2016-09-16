@@ -1,3 +1,5 @@
+<!-- Structure this -->
+
 <!DOCTYPE HTML>
 
 <?php $vend_code = $_GET['v']; ?>
