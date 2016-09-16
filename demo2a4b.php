@@ -172,12 +172,12 @@ var dataString = "path=" + btoa(encodeURIComponent(pth));
 
 $.ajax({
 type        :           "GET",
-url         :           "http://xchangemarket.com/loadProduct.php",
+url         :           "http://xchangemarket.com/xch-prod-16--/loadProduct.php",
 data        :           dataString,
 cache       :           false,
 /* dataType    :           "xml", */
 success     :           function(data){
-console.log(data)
+
 if (JSON.parse(data).prodResult != null && JSON.parse(data).prodResult != undefined/* && vendContent2.length > 0*/) {
 
 var json1 = JSON.parse(data).prodResult;
