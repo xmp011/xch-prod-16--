@@ -1243,7 +1243,7 @@ animateMe($('#inner200'), remainingTime, 'hover');
 <!-- LAYOUT 4 -->
 <!-- LIST ALL PRODUCTS app843904833 -->
 <div id="container" style='width:100%; height:95px; margin-top:20px; padding-top:5px; z-index:1; position:relative; top:-2px; border:1px solid #a8c9e7;'>
-<img id='leftthumbarrow' src='images/leftBLUvend_white.png' onclick="scrleft();" style='float:left; width:20px; height:48px; margin-top:20px; cursor:pointer; padding-right:1%;' />
+<img id='leftthumbarrow' src='/xch-prod-16--/images/leftBLUvend_white.png' onclick="scrleft();" style='float:left; width:20px; height:48px; margin-top:20px; cursor:pointer; padding-right:1%;' />
 <div id="wrapper" style='height:95px; float:left; z-index:1; width:94%; border:0px solid red; padding:0px; '>
 <div id="inner" style='height:90px; width:8000px; font-size:10px; color:#0e6fc1; border:0px solid red; '><!-- Custom, make changes here, inner2, come back // PRODUCT THUMB -->
 <?php
@@ -1255,7 +1255,7 @@ endif;
 ?>
 </div>
 </div>
-<img id='rightthumbarrow' src="images/rightBLUvend_white.png" onclick="scrRight();" style='float:left; width:20px; height:48px; margin-top:20px; cursor:pointer; padding-left:1%;' />
+<img id='rightthumbarrow' src="/xch-prod-16--/images/rightBLUvend_white.png" onclick="scrRight();" style='float:left; width:20px; height:48px; margin-top:20px; cursor:pointer; padding-left:1%;' />
 </div>
 <script type="text/javascript">
 disableSelection(document.getElementById("inner")) /* Disable text selection on element with id="mydiv" */
@@ -1276,7 +1276,7 @@ disableSelection(document.getElementById("container")) /* Disable text selection
 <!-- LAYOUT 5 -->
 <!-- LIST ALL VENDORS app903248489 -->
 <div id="container2" style='width:100%; height:48px; margin-top:4px; z-index:1; position:relative; top:0px;'>
-<img id='leftvendarrow' src='images/leftBLUvend_white.png' onclick='vendLeft();' style='float:left; width:20px; height:48px; margin-top:10px; cursor:pointer; padding-right:1%;' />
+<img id='leftvendarrow' src='/xch-prod-16--/images/leftBLUvend_white.png' onclick='vendLeft();' style='float:left; width:20px; height:48px; margin-top:10px; cursor:pointer; padding-right:1%;' />
 <div id="wrapper2" style='height:44px; float:left; z-index:1; width:94%; padding-top:10px; padding-bottom:10px;'>
 <div id="inner2" style='position:relative; top:0px; width:8000px; padding:5px; border:0px solid red;'>
 <?php
@@ -1288,7 +1288,7 @@ endif;
 ?>
 </div>
 </div>
-<img id='rightvendarrow' src='images/rightBLUvend_white.png' onclick='vendRight();' style='float:left; width:20px; height:48px; margin-top:10px; cursor:pointer; padding-left:1%;' />
+<img id='rightvendarrow' src='/xch-prod-16--/images/rightBLUvend_white.png' onclick='vendRight();' style='float:left; width:20px; height:48px; margin-top:10px; cursor:pointer; padding-left:1%;' />
 </div>
 <script type="text/javascript">
 disableSelection(document.getElementById("inner2")) /* Disable text selection on element with id="mydiv" */

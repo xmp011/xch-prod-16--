@@ -104,8 +104,8 @@ header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
                             $pname			= $vvv;
                             $subEntry		= $arTHUMB2[$k];
                             $sheading		= $arTHUMB3[$k];
-                            $pth = "../products/".$entry."/".$subEntry."/".$subEntry;
-                            $thumb_path = "../products/".$entry."/".$subEntry."/".$subEntry."_thumb.jpg";
+                            $pth = "http://xchangemarket.com/products/".$entry."/".$subEntry."/".$subEntry;
+                            $thumb_path = "http://xchangemarket.com/products/".$entry."/".$subEntry."/".$subEntry."_thumb.jpg";
                             if($firstPTH=="")
                             {
                                 $firstPTH = $pth;
@@ -129,7 +129,7 @@ header('Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS');
                                     }
                                     else
                                     {
-                                        $productOut['thmb'] = '../missing_thumb.jpg';
+                                        $productOut['thmb'] = 'http://xchangemarket.com/missing_thumb.jpg';
                                     }
                             $prodContent[] = $productOut;
                             $k++;

@@ -110,8 +110,8 @@ if($mode == "1"){
                 $subEntry		= $arTHUMB2[$k];
                 $ytID			= $arTHUMB3[$k];
                 $ytplaylistID	= $arTHUMB4[$k];
-                $pth = "../products/".$entry."/".$subEntry."/".$subEntry;
-                $thumb_path = "../products/".$entry."/".$subEntry."/".$subEntry."_thumb.jpg";
+                $pth = "http://xchangemarket.com/products/".$entry."/".$subEntry."/".$subEntry;
+                $thumb_path = "http://xchangemarket.com/products/".$entry."/".$subEntry."/".$subEntry."_thumb.jpg";
                 if($firstPTH=="")
                 {
                     $firstPTH = $pth;
@@ -135,7 +135,7 @@ if($mode == "1"){
                         else
                         {
                             /* echo "<img src='missing_thumb.jpg' style='margin-top:4px;height:52px;width:52px;cursor:pointer;' />\n"; */
-                            $productOut .= "<img src='../missing_thumb.jpg' style='width:52px;height:52px;margin-top:3px;cursor:pointer;' />\n";
+                            $productOut .= "<img src='http://xchangemarket.com/missing_thumb.jpg' style='width:52px;height:52px;margin-top:3px;cursor:pointer;' />\n";
                         }
                         $spn = substr($pname,0,20);
                         $productOut .= "<div style='width:52px;height:26px;margin-top:1px;background-color:white;overflow:hidden;'>$spn</div>\n";
@@ -236,8 +236,8 @@ if($mode == "1"){
                         $subEntry		= $arTHUMB2[$k];
                         $ytID			= $arTHUMB3[$k];
                         $ytplaylistID	= $arTHUMB4[$k];
-                        $pth = "../products/".$entry."/".$subEntry."/".$subEntry;
-                        $thumb_path = "../products/".$entry."/".$subEntry."/".$subEntry."_thumb.jpg";
+                        $pth = "http://xchangemarket.com/products/".$entry."/".$subEntry."/".$subEntry;
+                        $thumb_path = "http://xchangemarket.com/products/".$entry."/".$subEntry."/".$subEntry."_thumb.jpg";
                         if($firstPTH=="")
                         {
                             $firstPTH = $pth;
@@ -254,7 +254,7 @@ if($mode == "1"){
                                 else
                                 {
                                     /* echo "<img src='missing_thumb.jpg' style='margin-top:4px;height:52px;width:52px;cursor:pointer;' />\n"; */
-                                    $productOut .= "<img src='../missing_thumb.jpg' style='margin-top:3px;height:52px;width:52px;cursor:pointer;' />\n";
+                                    $productOut .= "<img src='http://xchangemarket.com/missing_thumb.jpg' style='margin-top:3px;height:52px;width:52px;cursor:pointer;' />\n";
                                 }
                                 $spn = substr($pname,0,20);
                                 $productOut .= "<div style='width:52px;height:26px;margin-top:1px;background-color:white;overflow:hidden;'>$spn</div>\n";
@@ -367,8 +367,8 @@ if($mode == "1"){
                         $subEntry		= $arTHUMB2[$k];
                         $ytID			= $arTHUMB3[$k];
                         $ytplaylistID	= $arTHUMB4[$k];
-                        $pth = "../products/".$entry."/".$subEntry."/".$subEntry;
-                        $thumb_path = "../products/".$entry."/".$subEntry."/".$subEntry."_thumb.jpg";
+                        $pth = "http://xchangemarket.com/products/".$entry."/".$subEntry."/".$subEntry;
+                        $thumb_path = "http://xchangemarket.com/products/".$entry."/".$subEntry."/".$subEntry."_thumb.jpg";
                         if($firstPTH=="")
                         {
                             $firstPTH = $pth;
@@ -386,7 +386,7 @@ if($mode == "1"){
                                 else
                                 {
                                     /* echo "<img src='missing_thumb.jpg' style='margin-top:4px;height:52px;width:52px;cursor:pointer;' />\n"; */
-                                    $productOut .= "<img src='../missing_thumb.jpg' style='margin-top:3px;height:52px;width:52px;cursor:pointer;' />\n";
+                                    $productOut .= "<img src='http://xchangemarket.com/missing_thumb.jpg' style='margin-top:3px;height:52px;width:52px;cursor:pointer;' />\n";
                                 }
                                 $spn = substr($pname,0,20);
                                 $productOut .= "<div style='width:52px;height:26px;margin-top:1px;background-color:white;overflow:hidden;'>$spn</div>\n";
